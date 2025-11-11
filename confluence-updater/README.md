@@ -27,7 +27,7 @@ func (m *MyModule) SyncToConfluence(
 		WithLabel("first-label").                      // Can be used multiple times
 		WithLabel("second-label").
 		WithLogLevel("info").                          // Default value
-		WithCliVersion("2.3.1").                       // Will default to the newest version
+		WithCliVersion("2.3.2").                       // Default value
 		RunUpdate(ctx)
 
 	if err != nil {
